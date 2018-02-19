@@ -1,4 +1,7 @@
 TARGET_BOARD_PLATFORM := mt6737m
+TARGET_NO_FACTORYIMAGE := true
+BLOCK_BASED_OTA :=false
+
 
 # Use the non-open-source part, if present
 -include vendor/reallytek/rlk6737m_open_n/BoardConfigVendor.mk
